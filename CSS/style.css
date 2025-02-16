@@ -1,0 +1,66 @@
+body{
+font-family: 'Courier New', Courier, monospace;
+text-align:center;
+margin: 50px;
+background-color: rgb(179, 151, 206);
+color: aliceblue;
+}
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(60, 27, 90);
+    color: aliceblue;
+}
+h2{
+    text-shadow: 2px 2px 2px rgb(118, 30, 190);
+    color: rgb(72, 43, 99);
+}
+.nav-content{
+    width: 100%;
+   
+    
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+
+}
+.nav-content ul{
+    list-style-type: none;
+} 
+.navbar li{
+    position: relative;
+    font-size: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    padding: 10px;
+  
+}
+.navbar a:hover{
+    background-color:rgb(179, 151, 206) ;
+}
+.submenu{
+    display:none;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(60, 27, 90);
+    position: absolute;
+    width: 200px; 
+}
+.navbar li:hover .submenu {
+    display: block;
+}
